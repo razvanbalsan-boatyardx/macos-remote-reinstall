@@ -27,8 +27,8 @@ script_name="erase-install"
 version="0.21.0"
 
 # all output is written also to a log file
-LOG_FILE=/var/log/erase-install.log
-exec > >(tee ${LOG_FILE}) 2>&1
+#LOG_FILE=/var/log/erase-install.log
+#exec > >(tee ${LOG_FILE}) 2>&1
 
 # URL for downloading installinstallmacos.py
 installinstallmacos_url="https://raw.githubusercontent.com/grahampugh/macadmin-scripts/master/installinstallmacos.py"
